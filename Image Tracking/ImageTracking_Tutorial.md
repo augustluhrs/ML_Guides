@@ -296,7 +296,7 @@ This tutorial shows how to implement image tracking on the Magic Leap by buildin
 
 Now that our script is complete, we can add the images we want to track. Download the following image to your **Assets** folder:
 <br/>
-<img src="./MLImage_Submarine.png" alt="A colorful image of a submarine" width="300">
+<img src="./MLImage_Submarine.png" alt="A colorful image of a submarine" width="600">
 <!-- ![A colorful image of a submarine](./MLImage_Submarine.png) -->
 <br/>
 <br/>
