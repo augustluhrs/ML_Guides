@@ -428,6 +428,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trackerSettings:
     Dictionary: 0
-    MarkerLength: 0.1
+    MarkerLength: 0.025
     Enabled: 1
   MLArucoMarkerPrefab: {fileID: 310078729}

@@ -55,6 +55,7 @@ This tutorial shows how to implement ArUco marker tracking on the Magic Leap by 
         - Change build target to **Lumin**.
         - Change the color target to **Linear**.
         - Set the location of your **developer certificate**. 
+        - Check the **Magic Leap** box under **Project Settings > XR Plug-In Management > Lumin**
 4. Make sure the Manifest Privileges include "Camera Capture" by going to **Edit > Project Settings > Magic Leap > Manifest Settings > Reality** and selecting **CameraCapture**. Without camera access, the device cannot scan for markers.
 
 <br/>

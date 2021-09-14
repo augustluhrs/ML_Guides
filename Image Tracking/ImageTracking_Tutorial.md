@@ -54,6 +54,7 @@ This tutorial shows how to implement image tracking on the Magic Leap by buildin
         - Change build target to **Lumin**.
         - Change the color target to **Linear**.
         - Set the location of your **developer certificate**. 
+        - Check the **Magic Leap** box under **Project Settings > XR Plug-In Management > Lumin**
 4. Make sure the Manifest Privileges include "Camera Capture" by going to **Edit > Project Settings > Magic Leap > Manifest Settings > Reality** and selecting **CameraCapture**. Without camera access, the device cannot scan for images.
 
 <br/>
@@ -299,6 +300,9 @@ Now that our script is complete, we can add the images we want to track. Downloa
 <img src="./MLImage_Submarine.png" alt="A colorful image of a submarine" width="600">
 <!-- ![A colorful image of a submarine](./MLImage_Submarine.png) -->
 <br/>
+<br/>
+
+Click on the image in your Assets folder and select **Read/Write Enabled** in the inspector under **Import Settings > Advanced** -- this ensures we can access the texture memory from our script.
 <br/>
 
 Add the image from your Assets to the scene under **ImageTrackingManager > ImageTrackingSystem > Target Info > Image**. In that same inspector section, input "Submarine" to the **Name** field (though the name can be whatever you want), and input "0.236" to the **Longer Dimension** field.
